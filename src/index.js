@@ -1,10 +1,11 @@
 import './assets/style.css';
 import './assets/title.png'
+import './assets/logo.png';
 import getcategories from './module/meal.js';
 let meals = [];
 const loading = async () => {
-  await getcategories().then((lists) => {
-    console.log(lists);
+  const resp = await getcategories().then((data) => {
+    meals = [...data];
   });
 };
 loading();
