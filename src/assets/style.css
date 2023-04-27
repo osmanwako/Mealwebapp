@@ -15,7 +15,7 @@
 
   .header-container{
     max-width: 1536px;
-    background-color: #ee82ee;
+    background-color: #2196F3;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,22 @@
     width: 40px;
     margin-right: 20px;
   }
-
+   .navbar-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+   }
+   .menu-item-link{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+   }
+   .menu-active{
+    background-color: #f2f2f2;
+   }
   .main {
     max-width: 1536px;
     margin-left: 30px;
