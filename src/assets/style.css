@@ -86,7 +86,9 @@
   background-position: top left, 0.2em 0.2em;
   background-repeat: no-repeat;
 }
-
+.meal-head{
+  text-align: end;
+}
 .meal-thumbail{
   width: 99%;
   max-height: 375px;
@@ -121,8 +123,8 @@ color: #00f;
     flex-basis: 47.5%;
     }
   }
-  @media (min-width: 1124px) {
+  @media (min-width: 1125px) {
     .meal-item{
-    flex-basis: 31.5%;
+    flex-basis: 31%;
     }
   }
