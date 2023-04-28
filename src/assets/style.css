@@ -78,7 +78,8 @@ body {
   flex-direction: column;
   padding: 10px;
   background-color: transparent;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       -45deg,
       transparent,
       transparent 2%,
@@ -130,6 +131,7 @@ body {
 .meal-button:hover {
   color: #00f;
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -171,7 +173,7 @@ body {
   padding: 10px;
 }
 
-.comment-thumbail{
+.comment-thumbail {
   max-width: 348px;
   max-height: 348px;
   height: auto;
@@ -179,21 +181,21 @@ body {
   padding-bottom: 10px;
 }
 
-.meal-image{
-width: 100%;
-height: auto;
-border-radius: 50%;
+.meal-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
-.button-close{
-border: none;
-font-size: 17px;
-font-weight: bold;
-background-color: transparent;
+.button-close {
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: transparent;
 }
 
-.comment-details{
-  border-top:1px solid #00f;
+.comment-details {
+  border-top: 1px solid #00f;
   gap: 10px;
   display: flex;
   justify-content: space-around;
@@ -201,27 +203,26 @@ background-color: transparent;
   flex-flow: row wrap;
 }
 
-.meal-desc{
+.meal-desc {
   padding: 10px;
   font-size: 15px;
   font-style: italic;
 }
 
-.add-comment{
+.add-comment {
   padding: 16px;
   border: 1px solid #000;
   display: block;
   width: 100%;
 }
 
-.commet-item{
+.commet-item {
   padding-left: 10px;
   padding-bottom: 10px;
 }
 
-.comment-form{
+.comment-form {
   padding: 10px;
-  display: flex;
   gap: 10px;
   display: flex;
   justify-content: flex-start;
@@ -231,29 +232,29 @@ background-color: transparent;
   margin-top: 10px;
 }
 
-.comment-input{
+.comment-input {
   padding: 7px;
 }
 
-.comment-history{
+.comment-history {
   display: block;
   padding: 10px;
   line-height: 1.5rem;
   letter-spacing: 1px;
 }
 
-.d-popup header{
+.d-popup header {
   display: none;
 }
 
-.d-popup > main > .meal-container{
-display: none;
-}
-
-.d-popup footer{
+.d-popup > main > .meal-container {
   display: none;
 }
 
-.d-none{
+.d-popup footer {
+  display: none;
+}
+
+.d-none {
   display: none;
 }
