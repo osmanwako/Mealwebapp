@@ -6,7 +6,7 @@ import { meal_url } from './restapi.js';
      const data = await response.json();
      return data.meals;
    } catch (error) {
-     throw new Error('Something is wrong here line 10');
+     throw error;
    }
    return [];
  };

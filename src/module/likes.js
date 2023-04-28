@@ -22,7 +22,7 @@ export const updatelikes = async () => {
       renderlikes(data);
     }
   } catch (error) {
-    throw new Error('Something is wrong here line 10');
+    throw error;
   }
 };
 
@@ -42,6 +42,6 @@ export const addlike = async (event) => {
       }
     });
   } catch (error) {
-    throw new Error('Something is wrong here line 10');
+    throw error;
   }
 };
