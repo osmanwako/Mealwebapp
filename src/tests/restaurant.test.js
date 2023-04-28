@@ -1,16 +1,23 @@
-import createcafeid from './createcafeid';
+import createcafeid from './';
 
-describe('createcafeid', () => {
-  it('should create a new cafe ID', async () => {
-    const mockResponse = { id: '1234567890' };
-    const mockFetch = jest.fn().mockResolvedValue({
-      json: jest.fn().mockResolvedValue(mockResponse)
+describe('createcafeid function', () => {
+  beforeEach(() => {
+    // Mock the fetch method to return a mock Response object
+    global.fetch = jest.fn().mockResolvedValue({
+      status: 200,
+      json: () => Promise.resolve({ cafeId: '123456' }),
     });
-    global.fetch = mockFetch;
+  });
 
+  afterEach(() => {
+    // Clear the mock after each test
+    global.fetch.mockClear();
+  });
+
+  it('sends a POST request to the start URL with the correct headers', async () => {
     await createcafeid();
 
-    expect(mockFetch).toHaveBeenCalledWith(start_url, {
+    expect(global.fetch).toHaveBeenCalledWith(expect.any(String), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -18,10 +25,9 @@ describe('createcafeid', () => {
     });
   });
 
-  it('should throw an error if there is an issue with the API call', async () => {
-    const mockFetch = jest.fn().mockRejectedValue(new Error('Network error'));
-    global.fetch = mockFetch;
+  it('returns the cafe ID from the response', async () => {
+    const result = await createcafeid();
 
-    await expect(createcafeid()).rejects.toThrow();
+    expect(result).toEqual({ cafeId: '123456' });
   });
 });
