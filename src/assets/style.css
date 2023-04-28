@@ -24,6 +24,7 @@ body {
   border-bottom: 0.09px solid #fff;
 }
 .header-navbar {
+  max-width: 1536px;
   padding: 4px;
   display: flex;
   padding-right: 30px;
@@ -168,9 +169,12 @@ body {
 <<<<<<< HEAD
 
 .comment-thumbail {
+<<<<<<< HEAD
 =======
 .comment-thumbail{
 >>>>>>> developer
+=======
+>>>>>>> fa87408 (Add comment popup interaction)
   max-width: 348px;
   max-height: 348px;
   height: auto;
@@ -183,6 +187,7 @@ body {
   width: 100%;
   height: auto;
   border-radius: 50%;
+<<<<<<< HEAD
 }
 
 .button-close {
@@ -209,6 +214,19 @@ background-color: transparent;
 .comment-details{
   border-top:1px solid #00f;
 >>>>>>> developer
+=======
+}
+
+.button-close {
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.comment-details {
+  border-top: 1px solid #00f;
+>>>>>>> fa87408 (Add comment popup interaction)
   gap: 10px;
   display: flex;
   justify-content: space-around;
@@ -218,9 +236,12 @@ background-color: transparent;
 <<<<<<< HEAD
 
 .meal-desc {
+<<<<<<< HEAD
 =======
 .meal-desc{
 >>>>>>> developer
+=======
+>>>>>>> fa87408 (Add comment popup interaction)
   padding: 10px;
   font-size: 15px;
   font-style: italic;
@@ -228,9 +249,12 @@ background-color: transparent;
 <<<<<<< HEAD
 
 .add-comment {
+<<<<<<< HEAD
 =======
 .add-comment{
 >>>>>>> developer
+=======
+>>>>>>> fa87408 (Add comment popup interaction)
   padding: 16px;
   border: 1px solid #000;
   display: block;
@@ -244,9 +268,12 @@ background-color: transparent;
 <<<<<<< HEAD
 
 .comment-form {
+<<<<<<< HEAD
 =======
 .comment-form{
 >>>>>>> developer
+=======
+>>>>>>> fa87408 (Add comment popup interaction)
   padding: 10px;
   gap: 10px;
   display: flex;
@@ -268,6 +295,43 @@ background-color: transparent;
   letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
+=======
+.footer-container {
+  max-width: 1536px;
+  margin: 30px;
+  width: 100%;
+  background-color: #2196f3;
+  opacity: 0.8;
+  display: block;
+  border-top: 0.09px solid #fff;
+}
+
+.nav-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.dev-description{
+  display: flex;
+}
+
+.developer{
+  display: flex;
+  padding: 10px;
+  list-style: none;
+}
+
+.mit{
+  display: flex;
+  align-items: center;
+}
+
+>>>>>>> fa87408 (Add comment popup interaction)
 .d-popup header {
   display: none;
 }
