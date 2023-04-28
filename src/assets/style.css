@@ -34,12 +34,14 @@ body {
   width: 60px;
   margin-right: 20px;
 }
+
 .navbar-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
 }
+
 .menu-item-link {
   display: inline-block;
   padding: 10px;
@@ -47,9 +49,11 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
 .menu-active {
   background-color: #f2f2f2;
 }
+
 .main {
   max-width: 1536px;
   margin-left: 30px;
@@ -86,11 +90,13 @@ body {
   background-position: top left, 0.2em 0.2em;
   background-repeat: no-repeat;
 }
+
 .meal-head {
   text-align: end;
   font-style: italic;
   font-size: 15px;
 }
+
 .meal-thumbail {
   width: 300px;
   height: 300px;
@@ -111,6 +117,7 @@ body {
   align-items: center;
   font-size: 17px;
 }
+
 .meal-button {
   padding: 6px;
   border: none;
@@ -127,6 +134,7 @@ body {
     flex-basis: 47.5%;
   }
 }
+
 @media (min-width: 1125px) {
   .meal-item {
     flex-basis: 31%;
@@ -195,6 +203,7 @@ background-color: transparent;
   display: block;
   width: 100%;
 }
+
 .commet-item{
   padding-left: 10px;
   padding-bottom: 10px;
@@ -211,9 +220,11 @@ background-color: transparent;
   border-bottom: 1px dashed #000;
   margin-top: 10px;
 }
+
 .comment-input{
   padding: 7px;
 }
+
 .comment-history{
   display: block;
   padding: 10px;
