@@ -4,6 +4,7 @@ import './assets/logo.png';
 import getcategories from './module/meal.js';
 import ulelement from './module/dom_elements.js';
 import addaction from './module/eventlistener.js';
+import { updatelikes } from './module/likes';
 let meals = [];
 const render = () => {
   let list = '';
@@ -16,12 +17,13 @@ const render = () => {
           <hr>
           <div class="meal-interaction">
           <button class="meal-button meal-comment" value="${meal.idMeal}">&#10029; Comment</button>
-            <button class="meal-button meal-like" value="${meal.idMeal}">&#10084; Like</button><p> Liked 89</p></div>
+            <button class="meal-button meal-like" value="${meal.idMeal}">&#10084; Like</button><p id="like${meal.idMeal}"> Liked 0</p></div>
           </div>
         </li>
     `;
   });
   ulelement.innerHTML = list;
+  updatelikes();
 };
 
 const loading = async () => {
