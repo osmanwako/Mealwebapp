@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #fff;
   display: flex;
@@ -21,7 +20,6 @@ body {
   align-items: center;
   border-bottom: 0.09px solid #fff;
 }
-
 .header-navbar {
   padding: 4px;
   margin-left: 30px;
@@ -29,7 +27,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .restaurant-icon {
   width: 60px;
   margin-right: 20px;
@@ -65,7 +62,6 @@ body {
   flex-flow: row wrap;
   list-style: none;
 }
-
 .meal-card {
   position: relative;
   display: flex;
@@ -98,12 +94,10 @@ body {
   align-self: center;
   padding: 10px;
 }
-
 .meal-item {
   flex-grow: 0;
   flex-basis: 100%;
 }
-
 .meal-interaction {
   padding: 8px;
   display: flex;
@@ -144,7 +138,6 @@ body {
   list-style: none;
   flex-direction: column;
 }
-
 .comment-head {
   display: flex;
   justify-content: space-between;
@@ -152,7 +145,6 @@ body {
   border-bottom: 1px solid #00f;
   padding: 10px;
 }
-
 .comment-thumbail{
   max-width: 548px;
   max-height: 548px;
@@ -160,20 +152,17 @@ body {
   align-self: center;
   padding-bottom: 10px;
 }
-
 .meal-image{
 width: 100%;
 height: auto;
 border-radius: 50%;
 }
-
 .button-close{
 border: none;
 font-size: 17px;
 font-weight: bold;
 background-color: transparent;
 }
-
 .comment-details{
   border-top:1px solid #00f;
   gap: 10px;
@@ -182,13 +171,11 @@ background-color: transparent;
   align-items: center;
   flex-flow: row wrap;
 }
-
 .meal-desc{
   padding: 10px;
   font-size: 15px;
   font-style: italic;
 }
-
 .add-comment{
   padding: 16px;
   border: 1px solid #000;
@@ -199,7 +186,6 @@ background-color: transparent;
   padding-left: 10px;
   padding-bottom: 10px;
 }
-
 .comment-form{
   padding: 10px;
   display: flex;
