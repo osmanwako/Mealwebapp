@@ -18,4 +18,5 @@ const addaction = () => {
     like.addEventListener('click', addlike);
   });
 };
+
 export default addaction;

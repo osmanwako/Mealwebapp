@@ -6,12 +6,17 @@ import './assets/style.css';
 import './assets/title.png'
 import './assets/logo.png';
 import getcategories from './module/meal.js';
-import ulelement from './module/dom_elements.js';
+import { ulelement } from './module/dom_elements.js';
 import addaction from './module/eventlistener.js';
-import { updatelikes } from './module/likes';
+import { updatelikes } from './module/likes.js';
+import { addpopup } from './module/comments.js';
+
 let meals = [];
 const render = () => {
   let list = '';
+  document.getElementById(
+    'item-count'
+  ).textContent = `Seafood (${meals.length})`;
   meals.forEach((meal) => {
     list += `
     <li class="meal-item meal-card">
@@ -36,6 +41,7 @@ const loading = async () => {
     render();
     addaction();
   });
+  addpopup();
 };
 loading();
 >>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
