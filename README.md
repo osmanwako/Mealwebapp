@@ -22,9 +22,7 @@
 
 ## HTML+CSS Setup
 
-**Mealwebapp** is a web-based list that displays the rankings of individuals or groups based on specific criteria. The Mealwebapp pulls data from an API (Application Programming Interface) to dynamically update the list based on the latest information. This allows for real-time ranking updates. The rendered list refers to the visual presentation of the Mealwebapp on a website or application.
-## 🚀 Screenshot <a name="screenshot"></a>
-![image](https://user-images.githubusercontent.com/105784335/233406404-a537faf6-231c-4817-949d-a51081196b2e.png)
+**Mealwebapp** is  a application that displays a list of seafood meals along with their images, names, and interaction buttons like comment and like. The app also allows users to add comments to a particular meal and keeps track of the number of likes received by each meal.to accomplish this we used API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,7 +46,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Key Features
-- **Render-scores**
+- **MealDB Api**
 - **API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -124,9 +122,9 @@ to run tests, run the following command
 - LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
 
 👤 Osman Wako
-- GitHub: [@Christelle-12](https://github.com/Christelle-12)
-- Twitter: [@Chr1Nirere](https://twitter.com/Chr1Nirere)
-- LinkedIn :[LinkedIn](https://www.linkedin.com/in/nirere-marie-christelle-9b139823b/)
+- GitHub: [@Osman Wako](https://github.com/osmanwako)
+- Twitter: [@Osman Wako](https://twitter.com/BantuFita)
+- LinkedIn :[LinkedIn](https://www.linkedin.com/in/osmanwako411/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +160,7 @@ If you like this project to give a positive feedback and comments that will go a
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to express my gratitude to Microverse for this project.
+we would like to express our gratitude to Microverse for this project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
