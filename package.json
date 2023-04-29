@@ -10,6 +10,7 @@
     "start": "webpack serve --open",
     "build": "webpack"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,5 +22,28 @@
     "webpack": "^5.80.0",
     "webpack-cli": "^5.0.2",
     "webpack-dev-server": "^4.13.3"
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christelle-12/Mealwebapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christelle-12/Mealwebapp/issues"
+  },
+  "homepage": "https://github.com/Christelle-12/Mealwebapp#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.1"
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
   }
 }
