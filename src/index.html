@@ -28,14 +28,14 @@
         </ul>
     </header>
     <main class="main">
-      <ul class="meal-container">
+      <ul class="meal-container" id="meal-unorder-id">
         <li class="meal-item meal-card">
-          <h3 class="meal-head">Goat Beef</h3>
+          <p class="meal-head">Goat Beef</p>
           <hr>
           <img src="https://www.themealdb.com/images/category/chicken.png" class="meal-thumbail">
           <hr>
           <div class="meal-interaction">
-          <button class="meal-button">&#10029; Comment</button>
+          <button class="meal-button meal-comment">&#10029; Comment</button>
             <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
           </div>
         </li>
@@ -45,7 +45,7 @@
           <img src="https://www.themealdb.com/images/category/side.png" class="meal-thumbail">
           <hr>
           <div class="meal-interaction">
-          <button class="meal-button">&#10029; Comment</button>
+          <button class="meal-button meal-comment">&#10029; Comment</button>
             <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
           </div>
         </li><li class="meal-item meal-card">
@@ -54,7 +54,7 @@
           <img src="https://www.themealdb.com/images/category/starter.png" class="meal-thumbail">
           <hr>
           <div class="meal-interaction">
-          <button class="meal-button">&#10029; Comment</button>
+          <button class="meal-button meal-comment">&#10029; Comment</button>
             <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
           </div>
         </li><li class="meal-item meal-card">
@@ -63,7 +63,7 @@
           <img src="https://www.themealdb.com/images/category/beef.png" class="meal-thumbail">
           <hr>
           <div class="meal-interaction">
-          <button class="meal-button">&#10029; Comment</button>
+          <button class="meal-button meal-comment">&#10029; Comment</button>
             <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
           </div>
         </li><li class="meal-item meal-card">
@@ -72,15 +72,52 @@
           <img src="https://www.themealdb.com/images/category/dessert.png" class="meal-thumbail">
           <hr>
           <div class="meal-interaction">
-          <button class="meal-button">&#10029; Comment</button>
+          <button class="meal-button meal-comment">&#10029; Comment</button>
             <button class="meal-button meal-like">&#10084; Like</button><p> Liked 89</p></div>
           </div>
         </li>
       </ul>
+      <div class="comment-popup">
+      <ul class="meal-card comment-container">
+       <li class="comment-head"><p>Spance 3</p><button class="button-close">&#10005;</button></li>
+        <li class="comment-thumbail">
+          <img src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg" alt="" class="meal-image">
+        </li>
+        <li class="comment-details">
+         <p class="meal-desc">
+          Category: Chicken
+         </p>
+         <p class="meal-desc">
+        Area: Japanese
+         </p>
+         <p class="meal-desc">Tags: Meat,Casserole</p>
+         <p class="meal-desc"> Video on: <a href="">Youtube</a></p>
+        </li>
+        <li class="add-comment">
+          <h3 class="commet-item">Add Your Comment</h3>
+          <form action="" class="comment-form">
+            <input type="text" class="comment-input" placeholder="Your Name" size="25">
+            <input type="text" class="comment-input" placeholder="Your insight" size="60">
+            <input type="submit" class="comment-input">
+          </form>
+        <p class="comment-history">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius deleniti, modi autem reiciendis sint fugiat, voluptas dolores adipisci animi unde vero ipsam nobis aliquam minus? Quis a doloremque voluptas sit?
+        </p>
+        <p class="comment-history">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius deleniti, modi autem reiciendis sint fugiat, voluptas dolores adipisci animi unde vero ipsam nobis aliquam minus? Quis a doloremque voluptas sit?
+        </p>
+        <p class="comment-history">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius deleniti, modi autem reiciendis sint fugiat, voluptas dolores adipisci animi unde vero ipsam nobis aliquam minus? Quis a doloremque voluptas sit?
+        </p>
+        <p class="comment-history">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius deleniti, modi autem reiciendis sint fugiat, voluptas dolores adipisci animi unde vero ipsam nobis aliquam minus? Quis a doloremque voluptas sit?
+        </p>
+        </li>
+      </ul>
+      </div>
     </main>
     <footer>
         <p>&copy;Osman&Christelle</p>
     </footer>
-
   </body>
   </html>
