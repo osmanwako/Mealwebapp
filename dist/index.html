@@ -21,13 +21,8 @@ header about issue;
         <h1>Ellily Restaurant</h1>
         </nav>
         <ul class="header-navbar navbar-menu">
-        <li><a class="menu-item-link menu-active">Meal (87)</a></li>
-        <li><a class="menu-item-link">Beef</a></li>
-        <li><a class="menu-item-link">Starter</a></li>
-        <li><a class="menu-item-link">Chicken</a></li>
-        <li><a class="menu-item-link">Miscellaneous</a></li>
-        <li><a class="menu-item-link">Desert</a></li>
-        <li><a class="menu-item-link">Pasta</a></li>
+        <li><a class="menu-item-link">Category</a></li>
+        <li><a class="menu-item-link menu-active" id="item-count">Seafood 0</a></li>
         </ul>
     </header>
     <main class="main">
@@ -80,11 +75,44 @@ header about issue;
           </div>
         </li>
       </ul>
+      <div class="comment-popup d-none">
+      <ul class="meal-card comment-container">
+       <li class="comment-head"><p id="popupmeal-name">Space 3</p><button class="button-close">&#10005;</button></li>
+        <li class="comment-thumbail">
+          <img src="https://www.themealdb.com/images/media/meals/wvpsxx1468256321.jpg" alt="" class="meal-image" id="popupmeal-img">
+        </li>
+        <li class="comment-details">
+         <p class="meal-desc" id="popupmeal-cat">
+          Category: Chicken
+         </p>
+         <p class="meal-desc" id="popupmeal-area">
+        Area: Japanese
+         </p>
+         <p class="meal-desc" id="popupmeal-tag">Tags: Meat,Casserole</p>
+         <p class="meal-desc"> Video on: <a href="" id="popupmeal-video">Youtube</a></p>
+        </li>
+        <li class="add-comment">
+          <h3 class="commet-item">Add a Comment <span id="comment-count"></span> </h3>
+          <form action="" class="comment-form">
+            <input name="item_id" type="hidden" value="" id="popupmeal-id">
+            <input name="username" type="text" value="" class="comment-input" placeholder="Your Name" size="25">
+            <input name="comment" type="text" value="" class="comment-input" placeholder="Your insight" size="60">
+            <input name="button" type="submit" class="comment-input" value="Comment">
+          </form>
+          <div class="popup-comments">
+          </div>
+        </li>
+      </ul>
+      </div>
     </main>
-    <footer>
-        <p>&copy;Osman&Christelle</p>
+    <footer class="footer">
+        <p>&copy; Created by: Osman and Christelle</p>
+        <p></p>
     </footer>
+<<<<<<< HEAD
+=======
 
 >>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
+>>>>>>> developer
   </body>
   </html>

@@ -3,7 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 <<<<<<< HEAD
 
 =======
+<<<<<<< HEAD
+
+=======
 >>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
+>>>>>>> developer
 module.exports = {
   mode: 'development',
   entry: {

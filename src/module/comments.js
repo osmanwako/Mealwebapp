@@ -6,13 +6,13 @@ const commentpage = (list) => {
   document.getElementById('popupmeal-name').textContent = list.strMeal;
   document.getElementById('popupmeal-id').value = list.idMeal;
   document.getElementById(
-    'popupmeal-cat'
+    'popupmeal-cat',
   ).textContent = `Category : ${list.strCategory}`;
   document.getElementById(
-    'popupmeal-area'
+    'popupmeal-area',
   ).textContent = `Area : ${list.strArea}`;
   document.getElementById(
-    'popupmeal-tag'
+    'popupmeal-tag',
   ).textContent = `Tags : ${list.strTags}`;
   document.getElementById('popupmeal-img').src = list.strMealThumb;
   document.getElementById('popupmeal-video').href = list.strYoutube;
