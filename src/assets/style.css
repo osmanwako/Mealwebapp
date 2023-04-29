@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: #fff;
   display: flex;
@@ -24,14 +23,12 @@ body {
   flex-flow: row wrap;
   border-bottom: 0.09px solid #fff;
 }
-
 .header-navbar {
   padding: 4px;
   display: flex;
   padding-right: 30px;
   align-items: center;
 }
-
 .restaurant-icon {
   width: 60px;
   margin-right: 20px;
@@ -71,7 +68,6 @@ body {
   flex-flow: row wrap;
   list-style: none;
 }
-
 .meal-card {
   position: relative;
   display: flex;
@@ -107,12 +103,10 @@ body {
   align-self: center;
   padding: 10px;
 }
-
 .meal-item {
   flex-grow: 0;
   flex-basis: 100%;
 }
-
 .meal-interaction {
   padding: 8px;
   display: flex;
@@ -164,7 +158,6 @@ body {
   list-style: none;
   flex-direction: column;
 }
-
 .comment-head {
   display: flex;
   justify-content: space-between;
@@ -172,14 +165,19 @@ body {
   border-bottom: 1px solid #00f;
   padding: 10px;
 }
+<<<<<<< HEAD
 
 .comment-thumbail {
+=======
+.comment-thumbail{
+>>>>>>> developer
   max-width: 348px;
   max-height: 348px;
   height: auto;
   align-self: center;
   padding-bottom: 10px;
 }
+<<<<<<< HEAD
 
 .meal-image {
   width: 100%;
@@ -196,20 +194,43 @@ body {
 
 .comment-details {
   border-top: 1px solid #00f;
+=======
+.meal-image{
+width: 100%;
+height: auto;
+border-radius: 50%;
+}
+.button-close{
+border: none;
+font-size: 17px;
+font-weight: bold;
+background-color: transparent;
+}
+.comment-details{
+  border-top:1px solid #00f;
+>>>>>>> developer
   gap: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
+<<<<<<< HEAD
 
 .meal-desc {
+=======
+.meal-desc{
+>>>>>>> developer
   padding: 10px;
   font-size: 15px;
   font-style: italic;
 }
+<<<<<<< HEAD
 
 .add-comment {
+=======
+.add-comment{
+>>>>>>> developer
   padding: 16px;
   border: 1px solid #000;
   display: block;
@@ -220,8 +241,12 @@ body {
   padding-left: 10px;
   padding-bottom: 10px;
 }
+<<<<<<< HEAD
 
 .comment-form {
+=======
+.comment-form{
+>>>>>>> developer
   padding: 10px;
   gap: 10px;
   display: flex;

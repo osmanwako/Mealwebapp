@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+import './assets/title.png';
+import './assets/main.css';
+=======
 import './assets/style.css';
 import './assets/title.png';
 import './assets/logo.png';
@@ -40,3 +44,4 @@ const loading = async () => {
   addpopup();
 };
 loading();
+>>>>>>> e8d8d8c7995670b1097012233071640eb51be0ec
