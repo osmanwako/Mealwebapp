@@ -7,7 +7,7 @@ const renderlikes = (lists) => {
       const id = `like${list.item_id}`;
       const like = `Liked ${list.likes}`;
       if (document.getElementById(id)) {
-        likecounter(id,like)
+        likecounter(id, like);
       }
     } catch (error) {
       throw error;

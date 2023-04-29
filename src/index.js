@@ -1,6 +1,6 @@
 import './assets/style.css';
-import './assets/title.png';
 import './assets/logo.png';
+import './assets/meal.jpg';
 import getcategories from './module/meal.js';
 import { ulelement } from './module/dom_elements.js';
 import addaction from './module/eventlistener.js';
@@ -11,7 +11,7 @@ let meals = [];
 const render = () => {
   let list = '';
   document.getElementById(
-    'item-count',
+    'item-count'
   ).textContent = `Seafood (${meals.length})`;
   meals.forEach((meal) => {
     list += `
