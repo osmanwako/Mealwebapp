@@ -1,18 +1,23 @@
 import { togglepopup } from './popup.js';
 import { meal_url, base_url } from './restapi.js';
 import { btnclose, formdata } from './dom_elements.js';
+import commentcounter from './countcomment.js';
+
+const commentdisplay = (content) => {
+  document.querySelector('.popup-comments').innerHTML = content;
+};
 
 const commentpage = (list) => {
   document.getElementById('popupmeal-name').textContent = list.strMeal;
   document.getElementById('popupmeal-id').value = list.idMeal;
   document.getElementById(
-    'popupmeal-cat',
+    'popupmeal-cat'
   ).textContent = `Category : ${list.strCategory}`;
   document.getElementById(
-    'popupmeal-area',
+    'popupmeal-area'
   ).textContent = `Area : ${list.strArea}`;
   document.getElementById(
-    'popupmeal-tag',
+    'popupmeal-tag'
   ).textContent = `Tags : ${list.strTags}`;
   document.getElementById('popupmeal-img').src = list.strMealThumb;
   document.getElementById('popupmeal-video').href = list.strYoutube;
@@ -34,21 +39,19 @@ const mealbyid = async (id) => {
 
 const updatecomments = async (id) => {
   const url = `${base_url}/comments?item_id=${id}`;
-  document.querySelector('.popup-comments').innerHTML = '';
-  document.getElementById('comment-count').textContent = '';
+  commentdisplay('');
+  commentcounter('');
   try {
     const response = await fetch(url);
     if (response.ok) {
       const lists = await response.json();
-      document.getElementById('comment-count').textContent = `(${
-        lists.length ?? 0
-      })`;
+      commentcounter(lists.length);
       let html = '';
       lists.forEach((list) => {
         html += `<p class="comment-history"><strong>${list.username} :</strong>${list.comment} on <strong>${list.creation_date}.</strong>
         `;
       });
-      document.querySelector('.popup-comments').innerHTML = html;
+      commentdisplay(html);
     }
   } catch (error) {
     throw error;
