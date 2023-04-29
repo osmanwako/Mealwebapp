@@ -1,9 +1,9 @@
-import commentcounter from './countcomment.js'
+const commentcounter = require('./countcomment.js');
 
-describe('commentcounter', () => {
-it('should update the comment count on the page', () => {
-document.body.innerHTML = '<div id="comment-count">0</div>';
-commentcounter(5);
-expect(document.getElementById('comment-count').textContent).toBe('5');
-});
+test('commentcounter function', () => {
+  // const { JSDOM } = require('jsdom');
+  // const dom = new JSDOM('<div id="comment-count"></div>');
+  // global.document = dom.window.document;
+  commentcounter(5);
+  expect(document.getElementById('comment-count').textContent).toBe('5');
 });

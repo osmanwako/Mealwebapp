@@ -1,4 +1,4 @@
-import { base_url } from './restapi';
+import { baseurl } from './restapi.js';
 import likecounter from './countlike.js';
 
 const renderlikes = (lists) => {
@@ -10,12 +10,12 @@ const renderlikes = (lists) => {
         likecounter(id, like);
       }
     } catch (error) {
-      throw error;
+      throw error();
     }
   });
 };
 export const updatelikes = async () => {
-  const url = `${base_url}/likes/`;
+  const url = `${baseurl}/likes/`;
   try {
     const response = await fetch(url);
     if (response.ok) {
@@ -23,13 +23,13 @@ export const updatelikes = async () => {
       renderlikes(data);
     }
   } catch (error) {
-    throw error;
+    throw error();
   }
 };
 
 export const addlike = async (event) => {
   const mealid = event.target.value;
-  const url = `${base_url}/likes/`;
+  const url = `${baseurl}/likes/`;
   try {
     await fetch(url, {
       method: 'POST',
@@ -43,6 +43,6 @@ export const addlike = async (event) => {
       }
     });
   } catch (error) {
-    throw error;
+    throw error();
   }
 };

@@ -11,7 +11,7 @@ let meals = [];
 const render = () => {
   let list = '';
   document.getElementById(
-    'item-count'
+    'item-count',
   ).textContent = `Seafood (${meals.length})`;
   meals.forEach((meal) => {
     list += `
@@ -32,7 +32,7 @@ const render = () => {
 };
 
 const loading = async () => {
-  const resp = await getcategories().then((data) => {
+  await getcategories().then((data) => {
     meals = [...data];
     render();
     addaction();
