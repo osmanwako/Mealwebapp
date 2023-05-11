@@ -138,7 +138,8 @@ to run tests, run the following command
 - [ ] **[Add Css transitions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-## 🚀 Project Demo <a name="live-demo"></a>
+## 🚀 Project Demo <br>
+<a href="https://christelle-12.github.io/Mealwebapp/dist/">Check the Live demo link</a>
 
 [Demo video](https://drive.google.com/file/d/1axTnxWs8wAVq0KWad0sF1a69oX-vnBsu/view?usp=sharing)
 
