@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 ```sh
 
 cd my-dir
-git clone https://github.com/Christelle-12/Mealwebapp.git
+git clone https://github.com/osmanwako/mealwebapp.git
 
 ```
 
@@ -81,7 +81,7 @@ git clone https://github.com/Christelle-12/Mealwebapp.git
 
 ### Install
 
-1. Clone the repo:https://github.com/Christelle-12/Mealwebapp.git
+1. Clone the repo:https://github.com/osmanwako/mealwebapp.git
  
 2. Install npm packages:
   npm install
@@ -124,7 +124,7 @@ to run tests, run the following command
 👤 Osman Wako
 - GitHub: [@Osman Wako](https://github.com/osmanwako)
 - Twitter: [@Osman Wako](https://twitter.com/BantuFita)
-- LinkedIn :[LinkedIn](https://www.linkedin.com/in/osmanwako411/)
+- LinkedIn :[LinkedIn](https://www.linkedin.com/in/osmanwako/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +139,7 @@ to run tests, run the following command
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🚀 Project Demo <br>
-<a href="https://christelle-12.github.io/Mealwebapp/dist/">Check the Live demo link</a>
+<a href="https://osmanwako.github.io/mealwebapp/dist/">Check the Live demo link</a>
 
 [Demo video](https://drive.google.com/file/d/1axTnxWs8wAVq0KWad0sF1a69oX-vnBsu/view?usp=sharing)
 
