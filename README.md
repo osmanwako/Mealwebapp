@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 ```sh
 
 cd my-dir
-git clone https://github.com/Christelle-12/Mealwebapp.git
+git clone https://github.com/osmanwako/mealwebapp.git
 
 ```
 
@@ -81,7 +81,7 @@ git clone https://github.com/Christelle-12/Mealwebapp.git
 
 ### Install
 
-1. Clone the repo:https://github.com/Christelle-12/Mealwebapp.git
+1. Clone the repo:https://github.com/osmanwako/mealwebapp.git
  
 2. Install npm packages:
   npm install
